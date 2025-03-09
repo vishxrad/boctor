@@ -1,0 +1,11 @@
+base64
+os
+json
+gradio
+dotenv
+chromadb
+docx
+tempfile
+fitz
+requests
+plotly
