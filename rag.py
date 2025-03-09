@@ -4,7 +4,6 @@ import json
 import gradio as gr
 from dotenv import load_dotenv
 import chromadb
-from chromadb.utils import embedding_functions
 import docx
 import tempfile
 import fitz  # PyMuPDF for PDF handling
@@ -12,8 +11,7 @@ import re
 import uuid
 import requests
 import plotly.graph_objects as go
-import pandas as pd
-import numpy as np
+
 
 # Load environment variables from .env file
 load_dotenv()
@@ -662,7 +660,7 @@ def chat_interface(message, history, context_box, rewritten_query_box, doctor_bo
     5. Do not diagnose conditions or prescribe treatments
     6. Be sensitive to patient concerns and medical context
     7. When referring to medical research, note limitations and relevance
-    8. Emphasize the importance of consulting healthcare providers for personal medical decisions
+    8. Make sure you act as a medical professional's assistant and should be only used by them
     
     Always maintain a professional, empathetic tone and prioritize patient safety.
     """
