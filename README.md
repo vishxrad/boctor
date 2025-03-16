@@ -27,5 +27,3 @@ Boctor is an innovative AI-powered healthcare companion designed to provide pers
 ## Contributing
 Contributions are welcome! Please submit a pull request with your changes and a brief description of your contribution.
 
-## License
-Boctor is licensed under the MIT License. See LICENSE for details.
