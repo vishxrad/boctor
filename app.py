@@ -853,4 +853,5 @@ def create_gradio_interface():
 # Launch the Gradio app
 if __name__ == "__main__":
     demo = create_gradio_interface()
-    demo.launch(share=True, server_port=10000)
+    port = int(os.environ.get("PORT", 10000))  
+    demo.launch(share=True, server_port=port)
