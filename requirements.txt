@@ -1,11 +1,7 @@
-base64
-os
-json
 gradio
-dotenv
+python-dotenv
 chromadb
-docx
-tempfile
-fitz
+python-docx
+PyMuPDF
 requests
 plotly
